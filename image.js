@@ -1,4 +1,5 @@
 // npm install openai express multer fs
+// npm install // will install all dependencies
 import OpenAI from "openai"; 
 import express from "express";
 import multer from "multer";
