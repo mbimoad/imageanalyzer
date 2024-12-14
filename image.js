@@ -1,9 +1,12 @@
-import OpenAI from "openai";
+// npm install openai express multer fs
+import OpenAI from "openai"; 
 import express from "express";
 import multer from "multer";
 import fs from "fs";
 import { fileURLToPath } from "url";
 import path from "path";
+
+
 
 const openai = new OpenAI({
     apiKey: 'sk-proj-QYHg8tjPNgWELBC4zTiuT3BlbkFJ1XEMBv1LoCvbNLzR1iIf', // Replace with your API Key
